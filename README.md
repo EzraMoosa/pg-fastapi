@@ -35,11 +35,15 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
   Windows:
   ```bash
   python -m venv [env]
+  ```
+  ```bash
   [env]\Scripts\activate
   ```
   MacOS or Linux
   ```bash
   python3 -m venv [env]
+  ```
+  ```bash
   source [env]/bin/activate
   ```
 ### 4️⃣ Install requirements/ dependencies, use 'pip3' on MacOS or Linux
