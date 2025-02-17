@@ -62,6 +62,7 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
   FastAPI server should run on http://127.0.0.1:8000
 
 ## Screenshots:
+![Image](/screenshots/demo.png)
 
 ## Credit
 Made with ❤️ by [Ezra Moosa](https://github.com/EzraMoosa)
