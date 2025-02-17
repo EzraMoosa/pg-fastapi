@@ -3,7 +3,7 @@ from fastapi.templating import Jinja2Templates
 import random
 import string
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLReponse
+
 
 # Create FastAPI object
 app = FastAPI()
