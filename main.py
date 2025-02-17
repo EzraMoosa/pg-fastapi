@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
-import random
+import secrets
 import string
 from fastapi.staticfiles import StaticFiles
 
@@ -17,7 +17,7 @@ templates = Jinja2Templates(directory="templates")
 # Password generation
 def generate_password(length: int = 12):
     characters = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(characters) for _ in range(length))
+    return ''.join(secrets.choice(characters) for _ in range(length))
 
 
 # API route to generate a password
