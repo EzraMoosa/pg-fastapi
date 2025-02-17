@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-
     <link rel="stylesheet" href="/static/style.css">
+    <script defer src="/static/script.js"></script>
 </head>
+
 <body>
     <div class="container">
         <h2>Password Generator</h2>
@@ -15,16 +16,6 @@
         <button onclick="generatePassword()">Generate</button>
         <input type="text" id="password" readonly value="{{ password }}">
     </div>
-
-    <script>
-        function generatePassword() {
-            let length = document.getElementById("length").value;
-            fetch(`/generate?length=${length}`)
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById("password").value = data.password
-                })
-        }
-    </script>
 </body>
+
 </html>
