@@ -46,7 +46,7 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
   ```bash
     source [env]/bin/activate
   ```
-### 4️⃣ Install requirements/ dependencies, use 'pip3' on MacOS or Linux
+### 4️⃣ Install requirements/ dependencies
   - Windows:
   ```bash
     pip install -r requirements.txt
