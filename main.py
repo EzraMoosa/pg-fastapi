@@ -9,8 +9,9 @@ from fastapi.responses import HTMLReponse
 app = FastAPI()
 
 
-# Mount the static folder for frontend files
+# Mount the static & templates folder for frontend files
 app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 
 # Password generation
