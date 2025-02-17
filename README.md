@@ -24,36 +24,36 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
 ## 🛠 Installation
 
 ### 1️⃣ Clone the Repository
-```shell
-git clone https://github.com/yourusername/password-generator.git
-```
+  ```bash
+  git clone https://github.com/yourusername/password-generator.git
+  ```
 ### 2️⃣ Change into Repository directory
-```bash
-cd pg-fastapi
-```
+  ```bash
+  cd pg-fastapi
+  ```
 ### 3️⃣ Create and activate virtual enviroment, edit [env] to custom name
-Windows:
-```bash
-python -m venv [env]
-```
-```bash
-[env]\Scripts\activate
-```
-MacOS or Linux
-```bash
-python3 -m venv [env]
-```
-```bash
-source [env]/bin/activate
-```
+  - Windows:
+  ```bash
+  python -m venv [env]
+  ```
+  ```bash
+  [env]\Scripts\activate
+  ```
+  - MacOS or Linux
+  ```bash
+  python3 -m venv [env]
+  ```
+  ```bash
+  source [env]/bin/activate
+  ```
 ### 4️⃣ Install requirements/ dependencies, use 'pip3' on MacOS or Linux
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 ### 5️⃣ Run FastAPI server
-```bash
-uvicorn main:app --reload
-```
+  ```bash
+  uvicorn main:app --reload
+  ```
   FastAPI server should run on http://127.0.0.1:8000
 
 ## Screenshots:
