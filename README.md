@@ -32,11 +32,11 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
   cd pg-fastapi
   ```
 ### 3️⃣ Create and activate virtual enviroment, edit [env] to custom name
-    Windows:
+  Windows:
   ```bash
   python -m venv [env]
   ```
-    MacOS or Linux
+  MacOS or Linux
   ```bash
   python3 -m venv [env]
   ```
