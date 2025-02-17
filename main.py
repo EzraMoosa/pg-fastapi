@@ -24,3 +24,10 @@ def generate_password(length: int = 12):
 @app.get("/generate")
 def get_password(length: int = 12):
     return {"password": generate_password(length)}
+
+
+# Server frontend
+@app.get("/")
+def serve_frontend(request: Request, length: int = 12):
+    password = generate_password(length)
+    return templates.TemplateResponse("index.html", {"request": request, "password": password})
