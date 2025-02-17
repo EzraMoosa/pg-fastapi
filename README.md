@@ -64,5 +64,5 @@ It allows users to generate **strong passwords** with customizable lengths. 🔥
 ## Screenshots:
 
 ## Credit
-Made with ❤️ by [Ezra Moosa](https://github.com)
+Made with ❤️ by [Ezra Moosa](https://github.com/EzraMoosa)
     
